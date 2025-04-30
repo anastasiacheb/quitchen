@@ -5,7 +5,7 @@ import { Home, Menu, Reservation, About, Contact, Blog } from './pages';
 
 function App() {
   return (
-    <BrowserRouter basename="/quitchen">
+    <BrowserRouter>
       <Nav />
       <AnimatedRoutes />
     </BrowserRouter>
