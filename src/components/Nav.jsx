@@ -44,7 +44,7 @@ export default function Nav() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.5 }}
-            className={`absolute lg:fixed top-0 bg-dark bg-[url('./assets/images/bg.webp')] bg-cover bg-center bg-no-repeat overflow-x-clip bg-fixed w-dvw h-dvh left-0 p-3 md:p-6 z-30 ${isOpen ? 'block' : 'hidden'}`}>
+            className={`absolute lg:fixed top-0 bg-dark bg-[url('/quitchen/assets/images/bg.webp')] bg-cover bg-center bg-no-repeat overflow-x-clip bg-fixed w-dvw h-dvh left-0 p-3 md:p-6 z-30 ${isOpen ? 'block' : 'hidden'}`}>
             <div className="border border-tertiary rounded-2xl h-full">
               <button
                 onClick={() => setIsOpen(false)}
