@@ -1,0 +1,52 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-dark: #0a0b0a;
+  --color-light: #efe7d2;
+  --color-secondary: rgba(24, 24, 24, 0.5); /*second bg*/
+  --color-tertiary: rgba(239, 231, 210, 0.15); /*second border*/
+  --color-hover: rgba(30, 30, 30);
+  --color-hoverlink: rgb(208, 191, 147);
+
+  --font-forum: 'Forum', serif;
+  --font-satoshi: 'Satoshi', sans-serif;
+}
+
+@layer base {
+  * {
+    @apply transition-colors duration-300 ease-linear;
+  }
+
+  button {
+    @apply cursor-pointer;
+  }
+
+  .scrollbar-hidden::-webkit-scrollbar {
+    width: 0;
+  }
+}
+
+/* forum-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Forum';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/fonts/forum-v18-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('assets/fonts/Satoshi-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('assets/fonts/Satoshi-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
