@@ -59,7 +59,7 @@ function BLogItem({ image, date, title, description }) {
       />
       <div className="flex flex-col gap-2">
         <div className="flex gap-4 items-center">
-          <img src="/assets/icons/Grid2.svg" alt="decor" />
+          <img src="assets/icons/Grid2.svg" alt="decor" />
           <p className="uppercase font-satoshi font-normal text-xs">{date}</p>
         </div>
         <h3 className="font-forum font-normal text-2xl uppercase">{title}</h3>
@@ -74,11 +74,11 @@ export default function Blog() {
     <Page title="Blog" image="Image12.webp" sticky>
       <div className="rounded-2xl border border-tertiary flex flex-col p-8 gap-8 md:gap-16 md:p-16 lg:px-24 lg:py-20 lg:gap-20">
         <div className="flex gap-4 w-fit m-auto">
-          <img src="/assets/icons/Grid.svg" alt="decor" className="w-15" />
+          <img src="assets/icons/Grid.svg" alt="decor" className="w-15" />
           <h2 className="font-forum text-[28px] md:text-[32px] lg:text-[40px] uppercase text-center">
             Behind the Scenes <br />& Latest News
           </h2>
-          <img src="/assets/icons/Grid.svg" alt="decor" className="w-15 rotate-180" />
+          <img src="assets/icons/Grid.svg" alt="decor" className="w-15 rotate-180" />
         </div>
         <div className="flex flex-col gap-12">
           {blogPages.map((page, index) => (

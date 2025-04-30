@@ -29,7 +29,7 @@ function ImageLink({ image }) {
       />
       <div className="flex justify-center items-center w-full h-full absolute top-0">
         <img
-          src="/assets/icons/ph_instagram-logo-light.svg"
+          src="assets/icons/ph_instagram-logo-light.svg"
           alt="inst"
           className="size-8 max-w-none opacity-0 group-hover:opacity-100 transition-opacity duration-200 ease-linear"
         />
@@ -44,9 +44,9 @@ export default function Contact() {
       <div className="flex flex-col gap-4 lg:h-full md:grid md:grid-cols-2 md:grid-rows-2">
         <div className="rounded-2xl border border-tertiary p-10 md:p-12 flex flex-col gap-8 md:justify-between">
           <div className="flex gap-4 w-fit mx-auto">
-            <img src="/assets/icons/Grid.svg" alt="decor" className="w-15" />
+            <img src="assets/icons/Grid.svg" alt="decor" className="w-15" />
             <h2 className="font-forum text-[24px] uppercase whitespace-nowrap">Opening Hours</h2>
-            <img src="/assets/icons/Grid.svg" alt="decor" className="w-15 rotate-180" />
+            <img src="assets/icons/Grid.svg" alt="decor" className="w-15 rotate-180" />
           </div>
           <div className="flex flex-col gap-4">
             {openHours.map((item, index) => (
@@ -62,9 +62,9 @@ export default function Contact() {
         </div>
         <div className="rounded-2xl border border-tertiary p-10 md:p-12 flex flex-col gap-4 md:justify-between md:col-start-2">
           <div className="flex gap-8 w-fit mx-auto">
-            <img src="/assets/icons/Grid.svg" alt="decor" className="w-15" />
+            <img src="assets/icons/Grid.svg" alt="decor" className="w-15" />
             <h2 className="font-forum text-[24px] uppercase whitespace-nowrap">Get in touch</h2>
-            <img src="/assets/icons/Grid.svg" alt="decor" className="w-15 rotate-180" />
+            <img src="assets/icons/Grid.svg" alt="decor" className="w-15 rotate-180" />
           </div>
           <div className="flex flex-col gap-6">
             <div className="flex justify-between items-start font-satoshi font-light">
@@ -86,20 +86,20 @@ export default function Contact() {
               <p className="uppercase text-xs ">Follow</p>
               <div className="flex gap-3">
                 <a href="#">
-                  <img src="/assets/icons/ph_instagram-logo-light.svg" alt="inst" className="size-4.5 max-w-none" />
+                  <img src="assets/icons/ph_instagram-logo-light.svg" alt="inst" className="size-4.5 max-w-none" />
                 </a>
                 <a href="#">
-                  <img src="/assets/icons/ph_facebook-logo-light.svg" alt="facebook" className="size-4.5 max-w-none" />
+                  <img src="assets/icons/ph_facebook-logo-light.svg" alt="facebook" className="size-4.5 max-w-none" />
                 </a>
                 <a href="#">
-                  <img src="/assets/icons/ph_twitter-logo-light.svg" alt="twitter" className="size-4.5 max-w-none" />
+                  <img src="assets/icons/ph_twitter-logo-light.svg" alt="twitter" className="size-4.5 max-w-none" />
                 </a>
               </div>
             </div>
           </div>
         </div>
         <div className="rounded-2xl overflow-clip aspect-square md:col-start-1 md:row-start-2">
-          <img src="/assets/images/Image123.webp" alt="kdsfj" className="w-full h-full" />
+          <img src="assets/images/Image123.webp" alt="kdsfj" className="w-full h-full" />
         </div>
       </div>
     </Page>

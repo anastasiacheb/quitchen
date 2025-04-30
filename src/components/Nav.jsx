@@ -17,7 +17,7 @@ export default function Nav() {
           <div className="bg-light w-5 h-0.25 group-hover:-translate-y-1.5 transition-all ease-linear duration-200"></div>
         </button>
         <Link to="/" className="w-fit">
-          <img src="/assets/icons/Logo.svg" alt="logo" className="h-6 w-auto md:h-7.5 flex-none" />
+          <img src="assets/icons/Logo.svg" alt="logo" className="h-6 w-auto md:h-7.5 flex-none" />
         </Link>
         <div className="flex items-center justify-center gap-1">
           <Link

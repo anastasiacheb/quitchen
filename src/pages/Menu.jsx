@@ -164,9 +164,9 @@ function MenuSection({ category, sectionRef }) {
   return (
     <div ref={sectionRef} className="flex flex-col gap-8 md:gap-12">
       <div className="flex gap-4 w-fit m-auto">
-        <img src="/assets/icons/Grid.svg" alt="decor" className="w-15" />
+        <img src="assets/icons/Grid.svg" alt="decor" className="w-15" />
         <h2 className="font-forum text-[32px] uppercase">{category}</h2>
-        <img src="/assets/icons/Grid.svg" alt="decor" className="w-15 rotate-180" />
+        <img src="assets/icons/Grid.svg" alt="decor" className="w-15 rotate-180" />
       </div>
       <div className="flex flex-col gap-8">
         {items.map((item, index) => (
@@ -211,7 +211,7 @@ export default function Menu() {
     </Page>
     // <main className="p-3 md:p-6 text-light flex flex-col gap-4 lg:grid lg:grid-cols-2 ">
     //   <div className="size-[calc(100dvw-24px)] bg-[url('/assets/images/Image4.webp')] bg-cover bg-center bg-no-repeat rounded-2xl flex items-end relative z-10 overflow-hidden justify-between md:w-[calc(100dvw-48px)] md:h-[calc(80dvw-48px)] lg:size-full lg:h-[calc(100dvh-48px)] lg:sticky lg:align-self-start lg:top-6">
-    //     <img src="/assets/images/Gradient.webp" alt="gradient" className="absolute bottom-0 w-full h-1/2 object-fill" />
+    //     <img src="assets/images/Gradient.webp" alt="gradient" className="absolute bottom-0 w-full h-1/2 object-fill" />
     //     <h1 className="font-forum text-light text-[56px] md:text-[80px] lg:text-[112px] tracking-wider uppercase leading-none pb-4 text-center mx-auto lg:text-left lg:mx-0 relative z-10 lg:pl-16 lg:pb-14">
     //       Menu
     //     </h1>

@@ -62,9 +62,9 @@ export default function Reservation() {
       <div className="rounded-2xl border border-tertiary flex flex-col p-8 gap-15 md:p-16 lg:px-24 lg:pt-20 lg:gap-20 lg:h-full">
         <div className="flex flex-col gap-4">
           <div className="flex gap-4 w-fit m-auto">
-            <img src="/assets/icons/Grid.svg" alt="decor" className="w-15" />
+            <img src="assets/icons/Grid.svg" alt="decor" className="w-15" />
             <h2 className="font-forum text-[28px] md:text-[32px] lg:text-[40px] uppercase">Reservation</h2>
-            <img src="/assets/icons/Grid.svg" alt="decor" className="w-15 rotate-180" />
+            <img src="assets/icons/Grid.svg" alt="decor" className="w-15 rotate-180" />
           </div>
           <p className="text-base md:text-lg font-satoshi font-light text-center max-w-125 m-auto">
             Secure your spot at Qitchen, where exceptional sushi and a remarkable dining experience await.

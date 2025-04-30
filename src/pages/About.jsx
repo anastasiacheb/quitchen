@@ -44,11 +44,11 @@ function Slider({ images, navId, startDelay = 0 }) {
       ))}
       <button
         className={`swiper-button-prev${navId} absolute left-2 top-1/2 z-10 -translate-y-1/2 size-9 bg-secondary border border-tertiary rounded-full flex items-center justify-center hover:bg-hover`}>
-        <img src="/assets/icons/ph_arrow-right-light.svg" alt="arrow" className="size-4.5 max-w-none rotate-180" />
+        <img src="assets/icons/ph_arrow-right-light.svg" alt="arrow" className="size-4.5 max-w-none rotate-180" />
       </button>
       <button
         className={`swiper-button-next${navId} absolute right-2 top-1/2 z-10 -translate-y-1/2 size-9 bg-secondary border border-tertiary rounded-full flex items-center justify-center hover:bg-hover`}>
-        <img src="/assets/icons/ph_arrow-right-light.svg" alt="arrow" className="size-4.5 max-w-none" />
+        <img src="assets/icons/ph_arrow-right-light.svg" alt="arrow" className="size-4.5 max-w-none" />
       </button>
     </Swiper>
   );
@@ -58,11 +58,11 @@ function Critics({ title, text }) {
   return (
     <div className="rounded-2xl border border-tertiary p-8 text-center">
       <div className="flex gap-1 py-2 justify-center pb-2">
-        <img src="/assets/icons/Vector.svg" alt="star" className="size-4" />
-        <img src="/assets/icons/Vector.svg" alt="star" className="size-4" />
-        <img src="/assets/icons/Vector.svg" alt="star" className="size-4" />
-        <img src="/assets/icons/Vector.svg" alt="star" className="size-4" />
-        <img src="/assets/icons/Vector.svg" alt="star" className="size-4" />
+        <img src="assets/icons/Vector.svg" alt="star" className="size-4" />
+        <img src="assets/icons/Vector.svg" alt="star" className="size-4" />
+        <img src="assets/icons/Vector.svg" alt="star" className="size-4" />
+        <img src="assets/icons/Vector.svg" alt="star" className="size-4" />
+        <img src="assets/icons/Vector.svg" alt="star" className="size-4" />
       </div>
       <h3 className="uppercase font-forum font-normal text-2xl pb-1">{title}</h3>
       <p className="uppercase font-satoshi font-normal text-xs opacity-70">{text}</p>
@@ -122,9 +122,9 @@ export default function About() {
           </div>
           <div className="rounded-2xl border border-tertiary p-10 md:p-12 flex flex-col gap-4 md:justify-between">
             <div className="flex gap-4 w-fit mx-auto">
-              <img src="/assets/icons/Grid.svg" alt="decor" className="w-15" />
+              <img src="assets/icons/Grid.svg" alt="decor" className="w-15" />
               <h2 className="font-forum text-[24px] uppercase">Our Story</h2>
-              <img src="/assets/icons/Grid.svg" alt="decor" className="w-15 rotate-180" />
+              <img src="assets/icons/Grid.svg" alt="decor" className="w-15 rotate-180" />
             </div>
             <p className="text-base font-satoshi font-light">
               Founded with a passion for culinary excellence, Qitchen's journey began in the heart of Prague. Over
