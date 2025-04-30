@@ -32,12 +32,12 @@
   font-family: 'Forum';
   font-style: normal;
   font-weight: 400;
-  src: url('assets/fonts/forum-v18-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/assets/fonts/forum-v18-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 @font-face {
   font-family: 'Satoshi';
-  src: url('assets/fonts/Satoshi-Light.woff2') format('woff2');
+  src: url('/assets/fonts/Satoshi-Light.woff2') format('woff2');
   font-weight: 300;
   font-display: swap;
   font-style: normal;
@@ -45,7 +45,7 @@
 
 @font-face {
   font-family: 'Satoshi';
-  src: url('assets/fonts/Satoshi-Regular.woff2') format('woff2');
+  src: url('/assets/fonts/Satoshi-Regular.woff2') format('woff2');
   font-weight: 400;
   font-display: swap;
   font-style: normal;

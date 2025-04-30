@@ -124,7 +124,7 @@ export default function About() {
             <div className="flex gap-4 w-fit mx-auto">
               <img src="assets/icons/Grid.svg" alt="decor" className="w-15" />
               <h2 className="font-forum text-[24px] uppercase">Our Story</h2>
-              <img src=".assets/icons/Grid.svg" alt="decor" className="w-15 rotate-180" />
+              <img src="assets/icons/Grid.svg" alt="decor" className="w-15 rotate-180" />
             </div>
             <p className="text-base font-satoshi font-light">
               Founded with a passion for culinary excellence, Qitchen's journey began in the heart of Prague. Over
