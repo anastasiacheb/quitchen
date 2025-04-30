@@ -53,7 +53,7 @@ function BLogItem({ image, date, title, description }) {
   return (
     <div className="flex flex-col gap-8 md:flex-row md:gap-12 cursor-pointer">
       <img
-        src={`/assets/images/${image}`}
+        src={`assets/images/${image}`}
         alt="photo"
         className="aspect-[280/210] rounded-2xl object-cover md:max-w-70"
       />

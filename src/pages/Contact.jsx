@@ -23,7 +23,7 @@ function ImageLink({ image }) {
   return (
     <a href="#" className="rounded-2xl overflow-clip relative group cursor-pointer">
       <img
-        src={`/assets/images/${image}`}
+        src={`assets/images/${image}`}
         alt="photo"
         className="group-hover:opacity-30 transition-all duration-200 ease-linear group-hover:scale-115"
       />

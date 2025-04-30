@@ -36,7 +36,7 @@ function Slider({ images, navId, startDelay = 0 }) {
       {images.map((image, index) => (
         <SwiperSlide key={index}>
           <img
-            src={`/assets/images/${image}`}
+            src={`assets/images/${image}`}
             alt="photo"
             className="aspect-[456/377] rounded-2xl object-cover lg:aspect-auto lg:h-full lg:w-full"
           />
@@ -124,7 +124,7 @@ export default function About() {
             <div className="flex gap-4 w-fit mx-auto">
               <img src="assets/icons/Grid.svg" alt="decor" className="w-15" />
               <h2 className="font-forum text-[24px] uppercase">Our Story</h2>
-              <img src="assets/icons/Grid.svg" alt="decor" className="w-15 rotate-180" />
+              <img src=".assets/icons/Grid.svg" alt="decor" className="w-15 rotate-180" />
             </div>
             <p className="text-base font-satoshi font-light">
               Founded with a passion for culinary excellence, Qitchen's journey began in the heart of Prague. Over
