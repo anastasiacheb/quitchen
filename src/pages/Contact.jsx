@@ -41,7 +41,7 @@ function ImageLink({ image }) {
 export default function Contact() {
   return (
     <Page title="Contact" image="Image9.webp">
-      <div className="flex flex-col gap-4 lg:h-full md:grid md:grid-cols-2 md:grid-rows-2">
+      <div className="flex flex-col gap-4 lg:h-[calc(100dvh-48px-87px)] md:grid md:grid-cols-2 md:grid-rows-2">
         <div className="rounded-2xl border border-tertiary p-10 md:p-12 flex flex-col gap-8 md:justify-between">
           <div className="flex gap-4 w-fit mx-auto">
             <img src="assets/icons/Grid.svg" alt="decor" className="w-15" />
@@ -54,7 +54,7 @@ export default function Contact() {
             ))}
           </div>
         </div>
-        <div className="grid grid-cols-2 grid-rows-2 gap-4 aspect-square">
+        <div className="grid grid-cols-2 grid-rows-2 gap-4 aspect-square lg:h-[calc((100dvh-48px-87px-16px)/2)]">
           <ImageLink image="Image9.webp" />
           <ImageLink image="Image10.webp" />
           <ImageLink image="Image11.webp" />
@@ -98,8 +98,8 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <div className="rounded-2xl overflow-clip aspect-square md:col-start-1 md:row-start-2">
-          <img src="assets/images/Image123.webp" alt="kdsfj" className="w-full h-full" />
+        <div className="rounded-2xl overflow-clip aspect-square md:aspect-auto md:col-start-1 md:row-start-2 lg:h-[calc((100dvh-48px-87px-16px)/2)]">
+          <img src="assets/images/Image123.webp" alt="kdsfj" className="w-full object-cover" />
         </div>
       </div>
     </Page>
