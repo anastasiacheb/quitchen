@@ -121,8 +121,7 @@ export default function Reservation() {
             />
             <input
               type="date"
-              className="font-satoshi font-light text-sm md:text-base md:leading-[180%] !text-light placeholder:text-light outline-none py-4 px-6 border border-tertiary bg-secondary rounded-[10px] focus:border-light w-full 
-                "
+              className="font-satoshi font-light text-sm md:text-base md:leading-[180%] !text-light placeholder:text-light outline-none py-4 px-6 border border-tertiary bg-secondary rounded-[10px] focus:border-light w-full appearance-none"
               placeholder="Date"
               required
               min={new Date().toISOString().split('T')[0]}
