@@ -1,12 +1,12 @@
 import Page from '../components/Page';
 
 const openHours = [
-  { day: 'Monday', hours: '4:00 PM - 10:30 PM' },
-  { day: 'Tuesday', hours: '4:00 PM - 10:30 PM' },
-  { day: 'Wednesday', hours: '4:00 PM - 10:30 PM' },
-  { day: 'Thursday', hours: '4:00 PM - 10:30 PM' },
-  { day: 'Friday', hours: '14:00 PM - 10:30 PM' },
-  { day: 'Saturday & Sunday', hours: '4:00 PM - 10:30 PM' },
+  { day: 'Monday', hours: '16:00 - 22:30' },
+  { day: 'Tuesday', hours: '16:00 - 22:30' },
+  { day: 'Wednesday', hours: '16:00 - 22:30' },
+  { day: 'Thursday', hours: '16:00 - 22:30' },
+  { day: 'Friday', hours: '16:00 - 22:30' },
+  { day: 'Saturday & Sunday', hours: '16:00 - 22:30' },
 ];
 
 function OpeningHours({ day, hours }) {
