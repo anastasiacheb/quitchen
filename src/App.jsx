@@ -2,8 +2,28 @@ import { Nav } from './components';
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import { Home, Menu, Reservation, About, Contact, Blog } from './pages';
+import { useEffect } from 'react';
+
+const preloadImages = [
+  '/assets/images/Image5.webp',
+  '/assets/images/Image4.webp',
+  '/assets/images/Image6.webp',
+  '/assets/images/Image9.webp',
+  '/assets/images/Image12.webp',
+];
+
+function useImagePreload() {
+  useEffect(() => {
+    preloadImages.forEach((src) => {
+      const img = new Image();
+      img.src = src;
+    });
+  }, []);
+}
 
 function App() {
+  useImagePreload();
+
   return (
     <BrowserRouter>
       <Nav />
