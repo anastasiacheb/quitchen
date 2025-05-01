@@ -44,9 +44,9 @@ export default function Contact() {
       <div className="flex flex-col gap-4 lg:h-[calc(100dvh-48px-87px)] md:grid md:grid-cols-2 md:grid-rows-2">
         <div className="rounded-2xl border border-tertiary p-10 md:p-12 flex flex-col gap-8 md:justify-between">
           <div className="flex gap-4 w-fit mx-auto">
-            <img src="assets/icons/Grid.svg" alt="decor" className="w-15" />
+            <img src="assets/icons/Grid2.svg" alt="decor" className="w-15" />
             <h2 className="font-forum text-[24px] uppercase whitespace-nowrap">Opening Hours</h2>
-            <img src="assets/icons/Grid.svg" alt="decor" className="w-15 rotate-180" />
+            <img src="assets/icons/Grid2.svg" alt="decor" className="w-15 rotate-180" />
           </div>
           <div className="flex flex-col gap-4">
             {openHours.map((item, index) => (
@@ -62,9 +62,9 @@ export default function Contact() {
         </div>
         <div className="rounded-2xl border border-tertiary p-10 md:p-12 flex flex-col gap-4 md:justify-between md:col-start-2">
           <div className="flex gap-8 w-fit mx-auto">
-            <img src="assets/icons/Grid.svg" alt="decor" className="w-15" />
+            <img src="assets/icons/Grid2.svg" alt="decor" className="w-15" />
             <h2 className="font-forum text-[24px] uppercase whitespace-nowrap">Get in touch</h2>
-            <img src="assets/icons/Grid.svg" alt="decor" className="w-15 rotate-180" />
+            <img src="assets/icons/Grid2.svg" alt="decor" className="w-15 rotate-180" />
           </div>
           <div className="flex flex-col gap-6">
             <div className="flex justify-between items-start font-satoshi font-light">
