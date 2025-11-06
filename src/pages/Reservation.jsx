@@ -1,4 +1,5 @@
-import Page from '../components/Page';
+import { Page, TimeSelect, DatePicker } from '../components';
+
 import { useState } from 'react';
 
 function Input({ type, placeholder, name, id, value, onChange, ...props }) {
@@ -103,7 +104,7 @@ export default function Reservation() {
             }}
           />
 
-          <div className="flex flex-col gap-4 md:flex-row">
+          <div className="flex flex-col gap-4 md:grid md:grid-cols-3">
             <input
               type="tel"
               maxLength={2}
@@ -119,7 +120,7 @@ export default function Reservation() {
                 setFormData({ ...formData, guests: value });
               }}
             />
-            <input
+            {/* <input
               type="date"
               className="font-satoshi font-light text-sm md:text-base md:leading-[180%] !text-light placeholder:text-light outline-none py-4 px-6 border border-tertiary bg-secondary rounded-[10px] focus:border-light w-full appearance-none"
               placeholder="Date"
@@ -130,8 +131,9 @@ export default function Reservation() {
               onChange={(e) => {
                 setFormData({ ...formData, date: e.target.value });
               }}
-            />
-            <select
+            /> */}
+            <DatePicker value={formData.date} onChange={(newDate) => setFormData({ ...formData, date: newDate })} />
+            {/* <select
               name="time"
               id="time"
               required
@@ -152,7 +154,8 @@ export default function Reservation() {
               <option value="20:00">20:00</option>
               <option value="20:30">20:30</option>
               <option value="21:00">21:00</option>
-            </select>
+            </select> */}
+            <TimeSelect value={formData.time} onChange={(newValue) => setFormData({ ...formData, time: newValue })} />
           </div>
           <button className="text-dark bg-light font-satoshi text-xs font-normal uppercase py-4 rounded-lg hover:bg-hoverlink">
             Reserve
