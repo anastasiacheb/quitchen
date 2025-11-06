@@ -1,4 +1,4 @@
-import Page from '../components/Page';
+import { Page, Map } from '../components';
 
 const openHours = [
   { day: 'Monday', hours: '16:00 - 22:30' },
@@ -98,8 +98,9 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <div className="rounded-2xl overflow-clip aspect-square md:aspect-auto md:col-start-1 md:row-start-2 lg:h-[calc((100dvh-48px-87px-16px)/2)]">
-          <img src="assets/images/Image123.webp" alt="kdsfj" className="w-full object-cover" />
+        <div className="rounded-2xl overflow-clip aspect-square md:aspect-auto md:col-start-1 md:row-start-2 lg:h-[calc((100dvh-48px-87px-16px)/2)] grayscale">
+          {/* <img src="assets/images/Image123.webp" alt="kdsfj" className="w-full object-cover" /> */}
+          <Map />
         </div>
       </div>
     </Page>
