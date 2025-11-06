@@ -123,7 +123,7 @@ export default function About() {
           <div className="rounded-2xl border border-tertiary p-10 md:p-12 flex flex-col gap-4 md:justify-between">
             <div className="flex gap-4 w-fit mx-auto">
               <img src="assets/icons/Grid.svg" alt="decor" className="w-15" />
-              <h2 className="font-forum text-[24px] uppercase">Our Story</h2>
+              <h2 className="font-forum text-[24px] uppercase whitespace-nowrap">Our Story</h2>
               <img src="assets/icons/Grid.svg" alt="decor" className="w-15 rotate-180" />
             </div>
             <p className="text-base font-satoshi font-light">
