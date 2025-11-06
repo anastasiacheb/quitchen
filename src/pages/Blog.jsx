@@ -72,10 +72,10 @@ function BLogItem({ image, date, title, description }) {
 export default function Blog() {
   return (
     <Page title="Blog" image="Image12.webp" sticky>
-      <div className="rounded-2xl border border-tertiary flex flex-col p-8 gap-8 md:gap-16 md:p-16 lg:px-24 lg:py-20 lg:gap-20">
+      <div className="rounded-2xl border border-tertiary flex flex-col p-8 gap-8 md:gap-16 md:p-16 xl:px-24 xl:py-20 xl:gap-20">
         <div className="flex gap-4 w-fit m-auto">
           <img src="assets/icons/Grid.svg" alt="decor" className="w-15" />
-          <h2 className="font-forum text-[28px] md:text-[32px] lg:text-[40px] uppercase text-center">
+          <h2 className="font-forum text-[28px] md:text-[32px] xl:text-[40px] uppercase text-center">
             Behind the Scenes <br />& Latest News
           </h2>
           <img src="assets/icons/Grid.svg" alt="decor" className="w-15 rotate-180" />

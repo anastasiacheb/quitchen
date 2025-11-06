@@ -32,13 +32,13 @@ function Slider({ images, navId, startDelay = 0 }) {
         swiperRef.current = swiper;
         if (startDelay > 0) swiper.autoplay.stop();
       }}
-      className="rounded-2xl lg:h-[calc((100dvh-62px-150px-32px-48px-16px)/2)]">
+      className="rounded-2xl xl:h-[calc((100dvh-62px-150px-32px-48px-16px)/2)]">
       {images.map((image, index) => (
         <SwiperSlide key={index}>
           <img
             src={`assets/images/${image}`}
             alt="photo"
-            className="aspect-[456/377] rounded-2xl object-cover lg:aspect-auto lg:h-full lg:w-full"
+            className="aspect-[456/377] rounded-2xl object-cover xl:aspect-auto xl:h-full xl:w-full"
           />
         </SwiperSlide>
       ))}
@@ -95,8 +95,8 @@ export default function About() {
 
   return (
     <Page title="About" image="Image6.webp">
-      <div className="flex flex-col gap-4 lg:h-full">
-        <div className="flex flex-col gap-4 md:grid md:grid-cols-2 lg:h-[calc((100dvh-62px-150px-32px-48px-16px)/2)]">
+      <div className="flex flex-col gap-4 xl:h-full">
+        <div className="flex flex-col gap-4 md:grid md:grid-cols-2 xl:h-[calc((100dvh-62px-150px-32px-48px-16px)/2)]">
           <div className="rounded-2xl border border-tertiary p-10 md:p-12 flex flex-col gap-4 md:justify-between">
             <h2 className="font-forum font-normal text-[28px] md:text-[32px] uppercase leading-[120%]">
               Sushi Artistry <br />
@@ -116,7 +116,7 @@ export default function About() {
             <Critics key={index} title={critic.title} text={critic.text} />
           ))}
         </div>
-        <div className="flex flex-col-reverse gap-4 md:grid md:grid-cols-2 lg:h-[calc((100dvh-62px-150px-32px-48px-16px)/2)]">
+        <div className="flex flex-col-reverse gap-4 md:grid md:grid-cols-2 xl:h-[calc((100dvh-62px-150px-32px-48px-16px)/2)]">
           <div className="h-full">
             <Slider images={secondSliderImages} navId="2" startDelay={1500} />
           </div>
